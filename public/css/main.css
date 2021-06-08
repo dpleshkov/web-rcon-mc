@@ -1,0 +1,27 @@
+
+html, body {
+    height: 100%;
+}
+
+.height-100 {
+    height: 100%
+}
+
+.courier-new {
+    font-family: "Consolas", sans-serif;
+}
+
+
+#container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#chatBox::-webkit-scrollbar {
+    display: none;
+}
+
+#chatBox {
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+}
